@@ -26,7 +26,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
  /*
  A string data type will be logged to the console because Java Script converts the interpolation
- into a string.
+ into a string. 
  */
 
 // YOU DO:

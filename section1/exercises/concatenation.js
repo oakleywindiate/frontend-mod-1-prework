@@ -33,7 +33,7 @@ converted the number value into a string in a process called type coercion.
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
-var slowPoke = "lazy brown dog";
+var slowPoke = "lazy brown dog"; 
 
 console.log("The " + speedy + " " + "jumped over the " + slowPoke);
 
