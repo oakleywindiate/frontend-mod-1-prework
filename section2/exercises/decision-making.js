@@ -7,7 +7,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -39,15 +39,52 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+ANSWER: This is a conditional statement that is used to execute a block of code. We have defined the first if statement as "doorChoice === 1".
+We are creating a statement that says, "If doorChoice is strictly equal to 1, then insert the value 'hat' for bearClothing."
+If the statement evaluates to anything else other than 1, the code will use the value "scarf" instead of "hat".
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+ANSWER: The variable "bearClothing" will be assigned a new value.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+ANSWER: If the variable doorChoice was equal to 3, the value of bearClothing would be "scarf".
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+ANSWER: This if/else statement is directing the block of code to execute certain values based on the variable "bearChoice".
+Line 10 states that bearChoice is strictly equal to 1.
+This means that the console will log the statement: "You offer the bear your hat and the bear shows you a secret passage out!".
+If we were to change the value on line 10 to 2 or 3, it would execute the other "else if" options listed that correspond to them.
+If the value for bearChoice is not 1, 2, or 3 then the code will run the "else" statement and print "You stay with the bear and become it's best friend!" to the console.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+ANSWER: If the variable doorChoice was equal to 1 and bearChoice was equal to 3 the console would log the following:
+
+`You enter a dark room with two doors. Do you go through #1 or #2?
+You see a bear putting on a hat
+It looks like that hat is too small for the bear, do you...
+1. Offer your own to the bear?
+2. Point it out to the bear?
+3. Make a dash for the next room?
+You run as fast as you can into the next room. It's full of snakes!`
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+ANSWER: If you changed the variables as stated in the question the console would log the following:
+
+`You enter a dark room with two doors. Do you go through #1 or #2?
+You see a bear putting on a hat
+It looks like that hat is too small for the bear, do you...
+1. Offer your own to the bear?
+2. Point it out to the bear?
+3. Make a dash for the next room?
+You tell the bear the hat is too small and it starts to cry!`
+
 7. What is your favorite ending?
+
+ANSWER: I like the ending where you become friends with the bear.
+
 */
