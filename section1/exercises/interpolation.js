@@ -24,9 +24,9 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 
- /*
+ /* 
  A string data type will be logged to the console because Java Script converts the interpolation
- into a string. 
+ into a string.
  */
 
 // YOU DO:

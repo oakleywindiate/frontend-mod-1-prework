@@ -40,13 +40,13 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-
+ 
 /*
 1. The variable "firstName" is a string data type because names are written with text. Text should be written
    as a string data type because it does not have an assigned numerical value.
 2. The variable "isHungry" is a Boolean data type because it is answering a "true or false question" that does not require more inputs.
 3. The variable "numberOfPets" is an number data type because the answer requires a numerical value only.
-*/ 
+*/
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
