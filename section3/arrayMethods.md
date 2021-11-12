@@ -1,8 +1,8 @@
 /* DEFINITIONS FOR ARRAYS:
 
-+ POP: this method removes the last item in an array
++ POP: removes an item in the last position of an array
 
-+ PUSH: adds an item to the end position of the array
++ PUSH: adds an item to the last position of an array
 
 + SHIFT: removes the item in the first position of an array
 
