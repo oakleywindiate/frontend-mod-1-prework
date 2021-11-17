@@ -2,7 +2,7 @@
 // Use the double // to create a new comment
 
 //Build a Bear
-
+ 
 // Creating a finction with five parameters
 function buildABear(name, age, fur, clothes, specialPower) {
 // declaring variables

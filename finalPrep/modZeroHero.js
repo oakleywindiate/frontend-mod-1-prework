@@ -10,7 +10,12 @@ var specialAbility = "give plants life";
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
 
 var greeting = "Hello! I am " + heroName + "!";
+<<<<<<< HEAD
 var catchPhrase = "I can " + specialAbility + " no matter what!";
+=======
+var catchPhrase = "I can " + specialAbility + " no matter what!"
+
+>>>>>>> d6dac1bd09426b52c2d9749b97f5e4186e0b7d8a
 
 // Declare two variables - power AND energy - set to integers
 
@@ -112,6 +117,7 @@ var scaryMonster = {
   }
 };
 
+
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
 //   - name
@@ -152,6 +158,20 @@ class SuperHero {
   gainPower(powerLevel) {
     this.powerLevel *= this.powerLevel;
 
+  }
+
+  sayName(name) {
+    this.name = name;
+
+  }
+
+  maximizeEnergy(energyLevel) {
+   this.energyLevel = 1000;
+
+  }
+
+  gainPower(powerLevel) {
+    this.powerLevel *= this.powerLevel
   }
 };
 

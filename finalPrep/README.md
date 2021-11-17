@@ -85,3 +85,4 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 
 ## Extensions
 Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
+ 
